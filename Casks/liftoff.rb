@@ -29,5 +29,7 @@ cask "liftoff" do
     open System Settings > Privacy & Security, scroll down and click "Open Anyway".
     Window previews need Screen & System Audio Recording; Accessibility is optional.
     After each update, macOS asks you to allow them again.
+    If Liftoff is missing from the Screen & System Audio Recording list, click +
+    below the list and choose /Applications/Liftoff.app.
   EOS
 end
