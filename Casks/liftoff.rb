@@ -2,13 +2,13 @@ cask "liftoff" do
   version "1.2.0"
   sha256 "356429faeaaf39057d63d4b3c1991bb7c5b46f6c7aaf05ccdeece931661dbf6f"
 
-  url "https://github.com/firstfu/Liftoff/releases/download/v#{version}/Liftoff.zip"
+  url "https://dl.ailoop.uk/liftoff/#{version}/Liftoff.zip"
   name "Liftoff"
   desc "Launchpad replacement with live window previews and Smart Organize"
   homepage "https://github.com/firstfu/Liftoff"
 
   livecheck do
-    url :url
+    url "https://github.com/firstfu/Liftoff"
     strategy :github_latest
   end
 

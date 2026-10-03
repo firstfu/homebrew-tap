@@ -2,13 +2,13 @@ cask "docklens" do
   version "1.0.11"
   sha256 "98db3add276ba8dc408550623f5312aad987679a434d49d0a35ebfb23ce56e60"
 
-  url "https://github.com/firstfu/DockLens-app/releases/download/v#{version}/DockLens.zip"
+  url "https://dl.ailoop.uk/docklens/#{version}/DockLens.zip"
   name "DockLens"
   desc "Dock window previews: hover an icon to see and manage all of its windows"
   homepage "https://github.com/firstfu/DockLens-app"
 
   livecheck do
-    url :url
+    url "https://github.com/firstfu/DockLens-app"
     strategy :github_latest
   end
 
