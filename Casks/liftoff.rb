@@ -1,6 +1,6 @@
 cask "liftoff" do
-  version "1.2.0"
-  sha256 "356429faeaaf39057d63d4b3c1991bb7c5b46f6c7aaf05ccdeece931661dbf6f"
+  version "1.2.1"
+  sha256 "798591edba2e427365ac9d946b3a753de815d6be70c1f246133ca8c4e0d1b103"
 
   url "https://dl.ailoop.uk/liftoff/#{version}/Liftoff.zip"
   name "Liftoff"
@@ -28,7 +28,7 @@ cask "liftoff" do
     Liftoff is not notarized yet. The first time you open it, macOS blocks it:
     open System Settings > Privacy & Security, scroll down and click "Open Anyway".
     Window previews need Screen & System Audio Recording; Accessibility is optional.
-    After each update, macOS asks you to allow them again.
+    Updating from 1.2.0 asks you to allow them once more; from 1.2.1 on, updates keep them.
     If Liftoff is missing from the Screen & System Audio Recording list, click +
     below the list and choose /Applications/Liftoff.app.
   EOS
