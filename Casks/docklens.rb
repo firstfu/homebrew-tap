@@ -1,6 +1,6 @@
 cask "docklens" do
-  version "1.0.10"
-  sha256 "31c8c464c771b096b5adea1f559158465f80eb02c6f01992ada68d825fcdd01e"
+  version "1.0.11"
+  sha256 "98db3add276ba8dc408550623f5312aad987679a434d49d0a35ebfb23ce56e60"
 
   url "https://github.com/firstfu/DockLens-app/releases/download/v#{version}/DockLens.zip"
   name "DockLens"
