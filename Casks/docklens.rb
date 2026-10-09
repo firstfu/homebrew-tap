@@ -1,6 +1,6 @@
 cask "docklens" do
-  version "1.0.11"
-  sha256 "98db3add276ba8dc408550623f5312aad987679a434d49d0a35ebfb23ce56e60"
+  version "1.0.12"
+  sha256 "5430af626370ac56b8872aec965c4db7b80b03016e98d6c80d113f1b9a0595f2"
 
   url "https://dl.ailoop.uk/docklens/#{version}/DockLens.zip"
   name "DockLens"
