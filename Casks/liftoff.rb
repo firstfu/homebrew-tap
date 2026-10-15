@@ -1,6 +1,6 @@
 cask "liftoff" do
-  version "1.3.1"
-  sha256 "0e7d3b2c074950440eeac6f69b4cd55453b4c0bde506761f6d760c710c66049d"
+  version "1.3.2"
+  sha256 "50de7ec913f8b137980e1d89d4956adef0e14996a98f48884b5399965b5981c9"
 
   url "https://dl.ailoop.uk/liftoff/#{version}/Liftoff.zip"
   name "Liftoff"
