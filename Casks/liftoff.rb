@@ -1,6 +1,6 @@
 cask "liftoff" do
-  version "1.3.3"
-  sha256 "0c295b97d8072e960ea0fdce7fc78af6d53185ac65c5279c18d72760b9d35d6c"
+  version "1.4.0"
+  sha256 "91b584e18eed46e3d8b0ca8bd926a8a9c7e9c59595e25d1f349d29df82e8bc7a"
 
   url "https://dl.ailoop.uk/liftoff/#{version}/Liftoff.zip"
   name "Liftoff"
@@ -12,6 +12,7 @@ cask "liftoff" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :tahoe
 
   app "Liftoff.app"
@@ -21,6 +22,8 @@ cask "liftoff" do
   zap trash: [
     "~/Library/Application Support/Liftoff",
     "~/Library/Caches/com.firstfu.Liftoff",
+    "~/Library/Caches/com.firstfu.Liftoff/org.sparkle-project.Sparkle",
+    "~/Library/HTTPStorages/com.firstfu.Liftoff",
     "~/Library/Preferences/com.firstfu.Liftoff.plist",
   ]
 
@@ -29,6 +32,7 @@ cask "liftoff" do
     open System Settings > Privacy & Security, scroll down and click "Open Anyway".
     Window previews need Screen & System Audio Recording; Accessibility is optional.
     Updating from 1.2.0 asks you to allow them once more; from 1.2.1 on, updates keep them.
+    From 1.4.0 on, Liftoff updates itself (Settings > General > About).
     If Liftoff is missing from the Screen & System Audio Recording list, click +
     below the list and choose /Applications/Liftoff.app.
   EOS
